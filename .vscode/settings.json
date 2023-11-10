@@ -3,5 +3,7 @@
         "activityBar.background": "#043613",
         "titleBar.activeBackground": "#064B1B",
         "titleBar.activeForeground": "#EFFEF3"
-    }
+    },
+    "liveServer.settings.port": 5501,
+    "jest.rootPath": "D:\\www\\MyTraitment"
 }

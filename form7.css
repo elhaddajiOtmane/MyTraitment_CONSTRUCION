@@ -1,0 +1,49 @@
+.socialicons {
+    display: inline;
+    margin-right: 10px; /* Adjust the margin as needed */
+    font-size: 20px;   /* Adjust the font size as needed */
+  }
+  
+  #wpcf7-f3253-p2551-o1 {
+    width: 667px;
+    height: 564px;
+    padding: 49px;
+    margin-left: -134px; /* Half of the width to center the form horizontally */
+    margin-top: -292px; /* Half of the height to center the form vertically */
+    background-color: red;
+  }
+  
+  #wpcf7-f3253-p2551-o1 input[type="text"],
+  #wpcf7-f3253-p2551-o1 input[type="email"],
+  #wpcf7-f3253-p2551-o1 input[type="tel"] {
+  
+  }
+  
+  #wpcf7-f3253-p2551-o1 input[type="submit"] {
+    align-items: center; /* Corrected the property name */
+    text-align: center;
+    width: 15%;
+  }
+  
+  /* To adjust checkbox width */
+  #wpcf7-f3253-p2551-o1 input[type="checkbox"] {
+    width: auto; /* This will let checkboxes use their default width */
+  }
+  
+
+
+  #wpcf7-f3253-p2551-o1 {
+    width: 667px; /* Form width */
+    height: 564px;
+    padding: 49px;
+    margin-left: -334px; /* Half of the width to center the form horizontally */
+    margin-top: -282px; /* Half of the height to center the form vertically */
+    background-color: red;
+    border-radius: 13px;
+}
+
+/* Adjust the maximum width of the checkbox label */
+#wpcf7-f3253-p2551-o1 label.checkbox-label {
+    max-width: 200px; /* Set a maximum width for the label */
+    white-space: normal; /* Allow text to wrap to a new line */
+}

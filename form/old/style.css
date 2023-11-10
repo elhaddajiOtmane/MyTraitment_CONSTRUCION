@@ -1,0 +1,38 @@
+/*
+Theme Name: CleenDay Child
+Author: WebGeniusLab
+Author URI: http://webgeniuslab.net
+Description: -
+Version: 1.0
+Template: cleenday
+Text Domain: cleenday-child
+*/
+/* Style for the contact_form7_slider */
+.contact_form7_slider {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+     border-color: white;
+}
+
+/* Style for the circle in the top right corner */
+
+  .contact_form7_slider {
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 8px 20px;
+    position: relative;
+  }
+  
+  .contact_form7_slider::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    transform:translate(50%,-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4da6ff;
+    mix-blend-mode:darken;
+  }

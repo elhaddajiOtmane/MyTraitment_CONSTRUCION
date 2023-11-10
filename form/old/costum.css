@@ -1,0 +1,131 @@
+
+
+#wpcf7-f3253-p2551-o1 {
+    position: relative;
+    width: 737px;
+    height: 594px;
+      border-color: white;
+    padding: 49px;
+    margin-left: -134px; /* Half of the width to center the form horizontally */
+    margin-top: -322px; /* Half of the height to center the form vertically */
+    background-color: white !important;
+      color:black;
+      border-radius: 13px;
+  }
+  #wpcf7-f3253-p2551-o1 span {
+    white-space: normal;
+  }
+  
+  
+  #wpcf7-f3253-p2551-o1 input[type="text"],
+  #wpcf7-f3253-p2551-o1 input[type="email"],
+  #wpcf7-f3253-p2551-o1 input[type="tel"] {
+  
+  }
+  
+  #wpcf7-f3253-p2551-o1 input[type="submit"] {
+    align-items: center; /* Corrected the property name */
+    text-align: center;
+    width: 15%;
+  }
+  
+  /* To adjust checkbox width */
+  #wpcf7-f3253-p2551-o1 input[type="checkbox"] {
+    width:px; /* This will let checkboxes use their default width */
+  }
+  
+  
+  /* Change text color to black on hover */
+  #wpcf7-f3253-p2551-o1 input[type="text"]:hover,
+  #wpcf7-f3253-p2551-o1 input[type="email"]:hover,
+  #wpcf7-f3253-p2551-o1 input[type="tel"]:hover {
+    color: black;
+  }
+  
+  /* Add this CSS code to style your submit button */
+  #wpcf7-f3253-p2551-o1 input[type="submit"] {
+    background-color: #38B6FF; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    width: auto; /* Allow the button to expand to its content */
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Ensure the button is on its own line, centered */
+    border: none; /* Remove any border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+  }
+  .qwerty {
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    display: inline-block; /* To ensure proper alignment */
+  }
+  
+  /* Adjust the color and any other styles as needed */
+  .qwerty i {
+    color: #000; /* Change the color as needed */
+  }
+  
+  
+  
+  /* Replace elements with the class "wgl-testimonials_rating_count" with the specified image */
+  .wgl-testimonials_rating_count {
+    background: url("https://i.ibb.co/ZJ12JxX/Group-102.png") no-repeat;
+    background-size: px; /* Increase the size of the background image */
+    width: 70px; 
+    display: inline-block; /* To ensure proper alignment */
+    vertical-align: middle; /* To vertically align the image with text */
+    text-indent: -9999px; /* Hide the text content */
+    margin-top: 18px; /* Add a margin-top of 5px */
+  }
+  
+  /* Add any other styles you need for the replaced image */
+  
+  /* Add any other styles you need for the replaced image */
+  
+  
+  
+  .elementor-2551 .elementor-element.elementor-element-47da88d .wgl-testimonials_rating_count {
+      color: #ffffff;
+      background-color: #fff;
+  }
+  
+  .page-header:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+          background-color: rgba(0, 0, 0, 0);
+      bottom: 0;
+      left: 0;
+      z-index: 562;
+  }
+  /*  style for posts and pages header colot  */
+  .page-header_breadcrumbs .breadcrumbs .current {
+    color: #000 !important;
+    cursor: default;
+    transition: 0.4s;
+  }
+  
+  
+  #wpcf7-f3253-p2551-o1::after {
+    content: " Garantie sur le résultat";
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background: #38B6FF;
+    font-family: Segoe UI;
+    font-weight: 600;
+    line-height: 115px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    z-index: 99999;
+    width: 115px;
+    height: 115px;
+    line-height: 2;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    white-space: wrap;
+    margin-top: 20px; 
+  }
