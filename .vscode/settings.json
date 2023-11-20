@@ -5,5 +5,9 @@
         "titleBar.activeForeground": "#EFFEF3"
     },
     "liveServer.settings.port": 5501,
-    "jest.rootPath": "D:\\www\\MyTraitment"
+    "jest.rootPath": "D:\\www\\MyTraitment",
+    "sonarlint.connectedMode.project": {
+        "connectionId": "vscode",
+        "projectKey": "elhaddajiOtmane_MyTraitment_CONSTRUCION"
+    }
 }

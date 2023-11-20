@@ -1,0 +1,51 @@
+[text* your-nom placeholder "Nom"]
+[text* your-prenom placeholder "Prénom"]
+[tel* your-tel placeholder "Tél"]
+[email* your-email autocomplete:email placeholder "E-mail"]
+
+[select* menu-choices id:stuff1 first_as_label "Choisissez le traitement *" 
+    "Assèchement par injection murs pierre" 
+    "Hydrofuge façade (nettoyage + hydrofuge)" 
+    "Anti mousse façade (nettoyage seul)" 
+    "Anti salpêtre par pulvérisation" 
+    "Assèchement par injection murs parpaing" 
+    "Anti mousse toiture (nettoyage seul)" 
+    "Hydrofuge toiture incolore (nettoyage + hydrofuge)" 
+    "Hydrofuge toiture coloré (nettoyage + hydrofuge)" 
+    "Traitement des bois curatif (injection)" 
+    "Traitement des bois préventif (pulvérisation)" 
+    "Ignifugeant charpente (retardataire d incendies par pulvérisation)" 
+    "Nettoyage de panneaux solaires" ]
+
+
+
+[number* number-358 id:stuff2 placeholder "Qté m²"]
+
+[calculated prix-unit cf7_hide "menu-choices"]
+
+[calculated total-ht cf7_hide "menu-choices * number-358"]
+
+[calculated calculated-203 cf7_hide "menu-choices * number-358 * 0.1"]
+
+[calculated total-ttc cf7_hide "(menu-choices * number-358) + (menu-choices * number-358 * 0.1)"]
+
+
+[group g1]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g2]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g3]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g4]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g5]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g6]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g7]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g8]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g9]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g10]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g11]La fiche technique du produit vous sera envoyée par email.[/group]
+[group g12]La fiche technique du produit vous sera envoyée par email.[/group]
+
+
+
+
+
+
+[submit "Envoyer"]
